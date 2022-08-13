@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="d_first rating_section">
+      <img src="./images/icon-star.svg" alt="" class="icon_star" />
+      <div class="title">How did we do?</div>
+      <!--  -->
+      <div class="para">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </div>
+      <!--  -->
+      <div class="numbers">
+        <div class="chosen_number" id="1">1</div>
+        <div class="chosen_number" id="2">2</div>
+        <div class="chosen_number" id="3">3</div>
+        <div class="chosen_number" id="4">4</div>
+        <div class="chosen_number" id="5">5</div>
+      </div>
+      <!--  -->
+      <div class="submit">Submit</div>
+    </div>
+    <!-- Rating state end -->
+    <div class="d_sec thank_section">
+      <img src="./images/illustration-thank-you.svg" alt="" class="thank_img" />
+      <div class="thank_number">
+        You selected <span class="chs_number"></span> out of 5
+      </div>
+      <!--  -->
+      <div class="title">Thank you!</div>
+      <!--  -->
+      <div class="para">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!
+      </div>
+    </div>
+
+    <script src="./javascript/app.js"></script>
+  </body>
+</html>

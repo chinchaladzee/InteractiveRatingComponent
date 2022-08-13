@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Overpass", sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+body {
+  background-color: hsl(216, 12%, 8%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.rating_section {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 20px;
+  padding: 50px 30px;
+}
+.thank_section {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 20px;
+  padding: 50px 30px;
+  text-align: center;
+}
+.d_first {
+  display: flex;
+}
+.d_sec {
+  display: none;
+}
+.d_active {
+  display: flex;
+}
+.d_unactive {
+  display: none;
+}
+.icon_star {
+  width: 20px;
+  height: 20px;
+  padding: 13px;
+  background-color: hsla(216, 12%, 54%, 0.2);
+  border-radius: 50%;
+}
+.title {
+  font-size: 27px;
+  font-weight: 700;
+  margin-top: 20px;
+  color: white;
+}
+.para {
+  margin-top: 10px;
+  max-width: 360px;
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(217, 12%, 63%);
+}
+.numbers {
+  margin-top: 20px;
+  display: flex;
+  column-gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+.chosen_number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 15px;
+  background-color: hsla(216, 12%, 54%, 0.2);
+  font-size: 18px;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.button_active {
+  background-color: hsl(25, 97%, 53%);
+}
+.chosen_number:hover {
+  background-color: hsl(217, 12%, 63%);
+}
+.submit {
+  letter-spacing: 2px;
+  padding: 15px 0px;
+  margin-top: 30px;
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  text-align: center;
+  border: 0;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+/* 
+
+*/
+
+.thank_img {
+  width: 150px;
+  height: auto;
+}
+.thank_number {
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 5px 20px;
+  border-radius: 30px;
+  background-color: hsla(216, 12%, 54%, 0.2);
+  color: hsl(25, 97%, 53%);
+}
